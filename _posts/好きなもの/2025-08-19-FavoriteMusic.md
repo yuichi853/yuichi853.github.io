@@ -10,7 +10,7 @@ tags: [music, classical, hiphop]     # TAG names should always be lowercase
 {% include embed/youtube.html id='g5aOMLLbQx0' %}
 
 ### Bach - Matthäus-Passion (René Jacobs)
-{% include embed/youtube.html id='ppwax_Tt6NM' %}
+{% include embed/youtube.html id='bDLyPmx439Y' %}
 
 ### Bach - Cantata "Mein Herze schwimmt im Blut" BWV199 (John Eliot Gardiner)
 {% include embed/youtube.html id='ydCKpBxdB8w' %}
