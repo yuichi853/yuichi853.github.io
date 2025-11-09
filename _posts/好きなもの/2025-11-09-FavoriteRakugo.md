@@ -1,7 +1,7 @@
 ---
-title: 好きなもの - 落語
-date: 2025-08-19
-categories: [好きなもの, 落語]
+title: 趣味 - 落語
+date: 2025-11-09
+categories: [趣味, 落語]
 tags: [music, rakugo]     # TAG names should always be lowercase
 ---
 
