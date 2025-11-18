@@ -1,5 +1,5 @@
 ---
-title: 趣味 - 音楽
+title: 好きな音楽について
 date: 2025-11-09
 categories: [趣味, 音楽]
 tags: [music, classical, hiphop]     # TAG names should always be lowercase
