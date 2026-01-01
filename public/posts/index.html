@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Posts | My New Hugo Site</title>
+<meta name="keywords" content="">
+<meta name="description" content="Posts - My New Hugo Site">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Posts
+  </h1>
+</header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">2dgameengine
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Libraries and Dependencies Compile and Link Compile and link are two different stages.
+Compiler stage compile stage compiler reads your .cpp compiler reads header files (.h) compiler checks: “Does this function name exist?” “Are argument types correct?” “Is the structure defined?” compiler generates .o (object files) Link stage linker takes object files &#43; binary libraries linker attaches real implementations from .so/.a produces the final executable So:
+Stage Needs headers? Needs binaries? Compile Yes No Link No Yes Q&amp;A from cource Q You explain that we install the binaries for e.g. SDL. But why do we then include .h files (e.g. SDL.h). Are header files not text files? A So, even when we are using binaries (.libs), we still need to add a .h file to our project. Header files (.h) are indeed source-code/text files, but the main goal of a header file is to expose the API of those binaries that we are trying to use. For example, when we include the binary of the SDL library, we need to also add the .h files for SDL. These .h files will tell the compiler important things, like what are the function names and the order of the parameters and also their type. When we compile our project, the compiler only looks at the header files and does a quick check to see if the function names are correct and the parameters are the ones that the header file expects. After the compiler says everything looks good and our calls match what the header file expects, the linker is the one responsible for bundling the implementation/binaries of those functions with our final executable. So, that’s the reason why we still need .h files. These header files are source code files, but they only tell the compiler what we can call from those binaries. I always like to think that the header file tells the compiler what are the names of the functions we can call, their return type, and also the parameters with their types and the order we need to pass them to the function. That’s the reason we downloaded both the Windows binaries (.lib) and the header files (.h) from the SDL official website. Static vs Dynamic Libraries 1. Static Libraries (.lib / .a) Library code is copied into the final executable at link time. Each program gets its own private copy of the code. Results in a larger executable and higher overall memory usage. Cannot be shared between multiple running programs. Common file extensions: Windows: .lib Linux/Unix: .a 2. Dynamic Libraries (.dll / .so) Library code stays outside the executable and is loaded at runtime. Multiple programs can share the same library in memory. Executable size is smaller and memory use is more efficient. Common file extensions: Windows: .dll Linux/Unix: .so Comparison Table Feature Static (.lib/.a) Dynamic (.dll/.so) Link time Build time Run time Executable size Larger Smaller Memory usage Higher (duplicate copies) Lower (shared) Sharing allowed No Yes Code location Inside the executable External file loaded dynamically Key Idea Summary Static library: code is copied into your program. Dynamic library: code is shared at runtime among programs. Displaying the Game Window Game Loop Game Loop Process Input Update Game Render (display stuff) while (true) { game -&gt; processInput(); game -&gt; update(); game -&gt; render(); } Game loop on game engine The game engine already provides the core game loop. When we write scripts to control game objects, the game engine exposes several key functions for us to override.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-29 00:00:00 +0900 JST'>December 29, 2025</span>&nbsp;·&nbsp;<span>Yuichi Tsunoda</span></footer>
+  <a class="entry-link" aria-label="post link to 2dgameengine" href="http://localhost:1313/posts/blog3/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Arch Linux と Sway WM を使ったデスクトップ環境構築ガイド（書きかけ）
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>はじめに Sway WM について Swayウィンドウマネージャー（以下、Sway）は、Waylandで動作するタイル型ウィンドウマネージャーです。 僕が Linux を使うモチベーションの一つが「タイル型ウィンドウマネージャーが使えること」なのですが、Wayland 環境で使えるタイル型ウィンドウマネージャーは結構限られています（Sway 以外だと Hyprland くらい？）。 僕はずーっと Sway を使っているのですが、Sway はかなり動作が安定しているし、ドキュメントも割と充実しているし、Arch Linux であれば日本語入力も問題なく使えるので、タイル型ウィンドウマネージャー初心者の方にも非常にオススメです。 ここでは、Arch Linux 上での Sway を使ったデスクトップ環境の構築方法を紹介します。
+僕のデスクトップ環境 見た目よりも視認性・操作性・メンテナンス性を重視して、シンプルなデザインにしています。ビジュアル重視の方は、Hyprlandを試してみると良いかもしれません。
+Sway のインストール Arch Linux のインストール方法についてはこちらの動画（英語）や、Arch Wiki（日本語）、こちらのドキュメント（日本語）を参照して下さい。 初心者の方はarchinstallというヘルパーライブラリを使うことをおすすめします。
+archinstall でインストールする場合 archinstallを使うと、Arch Linux のインストールと、Sway を含むデスクトップ環境を簡単にインストールできます。その際、Desktop Environment の項目で「Sway」を選択してください。 その他の項目のオススメの設定も一応載せておきます。
+Mirror: Japan Disk configuration → Partitioning Disk configuration type: Use a best-effort default partition layout File system: ext4 Create a separate partition for /home: Yes Profile Type Type: Desktop Desktop environment: GNOME, Sway Seat access: polkit Greeter: GDM Audio: pipewire Kernel: linux &amp; linux-lts Network configuration: Use NetworkManager Time zone: Japan 手動でインストールする場合 sudo pacman -S sway swaybg swaylock swayidle waybar wofi mako brightnessctl wl-clipboard 日本語入力とフォントの設定 日本語ロケールの設定 Sway 環境で日本語を使うためには、まずシステム全体で 日本語ロケール（ja_JP.UTF-8） を有効にする必要があります。 ロケールが定義されているファイルは /etc/locale.gen です。このファイルを開いて、=ja_JP.UTF-8 UTF-8= の行の先頭にある # を取り除いて日本語ロケールを有効にします。 次に、以下のコマンドを実行して /etc/locale.conf で有効になっているロケールをシステムに反映します。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-29 00:00:00 +0900 JST'>December 29, 2025</span>&nbsp;·&nbsp;<span>Yuichi Tsunoda</span></footer>
+  <a class="entry-link" aria-label="post link to Arch Linux と Sway WM を使ったデスクトップ環境構築ガイド（書きかけ）" href="http://localhost:1313/posts/blog2/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ダミー記事：文章のみのサンプル
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>はじめに これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。
+本文のサンプル 文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。
+また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。
+段落と改行 段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。
+改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。
+強調表現のサンプル この段落では、=等幅= と 太字 と 斜体 の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。
+まとめ このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。
+ダミー記事：文章のみのサンプル これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。
+はじめに Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。
+本文のサンプル 文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。
+また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。
+段落と改行 段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。
+改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。
+強調表現のサンプル この段落では、=等幅= と 太字 と 斜体 の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。
+まとめ このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。
+ダミー記事：文章のみのサンプル これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。
+はじめに Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。
+本文のサンプル 文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。
+また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。
+段落と改行 段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。
+改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。
+強調表現のサンプル この段落では、=等幅= と 太字 と 斜体 の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。
+まとめ このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-29 00:00:00 +0900 JST'>December 29, 2025</span>&nbsp;·&nbsp;<span>Yuichi Tsunoda</span></footer>
+  <a class="entry-link" aria-label="post link to ダミー記事：文章のみのサンプル" href="http://localhost:1313/posts/blog4/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">My Blog
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hugo &#43; ox-hugo の導入メモ この記事は、=ox-hugo= を使って Org から Hugo の記事を生成する手順のメモです。
+目的 Org で原稿を書く 1 見出し = 1 記事として Markdown を生成する Hugo の content/posts/ に自動出力する 構成（推奨） ~/sites/ ├── blog-org/ │ └── blog.org └── username.github.io/ ├── content/ ├── static/ ├── themes/ └── hugo.toml エクスポート ファイル全体: C-c C-e H H 見出し単位: C-c C-e H h コード例 cd ~/sites/username.github.io hugo server -D 画像 画像は static/images/ に置くと管理が簡単です。
+例：
+画像ファイル: static/images/sample.png Org 本文: [[/images/sample.png]] サンプル記事：技術メモの書き方 これは下書き（draft）です。=hugo server -D= で表示されます。
+...</p>
+  </div>
+  <footer class="entry-footer"><span>Yuichi Tsunoda</span></footer>
+  <a class="entry-link" aria-label="post link to My Blog" href="http://localhost:1313/posts/blog/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

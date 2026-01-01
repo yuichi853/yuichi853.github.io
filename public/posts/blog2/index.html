@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Arch Linux と Sway WM を使ったデスクトップ環境構築ガイド（書きかけ） | My New Hugo Site</title>
+<meta name="keywords" content="">
+<meta name="description" content="はじめに
+Sway WM について
+Swayウィンドウマネージャー（以下、Sway）は、Waylandで動作するタイル型ウィンドウマネージャーです。
+僕が Linux を使うモチベーションの一つが「タイル型ウィンドウマネージャーが使えること」なのですが、Wayland 環境で使えるタイル型ウィンドウマネージャーは結構限られています（Sway 以外だと Hyprland くらい？）。
+僕はずーっと Sway を使っているのですが、Sway はかなり動作が安定しているし、ドキュメントも割と充実しているし、Arch Linux であれば日本語入力も問題なく使えるので、タイル型ウィンドウマネージャー初心者の方にも非常にオススメです。
+ここでは、Arch Linux 上での Sway を使ったデスクトップ環境の構築方法を紹介します。
+僕のデスクトップ環境
+
+見た目よりも視認性・操作性・メンテナンス性を重視して、シンプルなデザインにしています。ビジュアル重視の方は、Hyprlandを試してみると良いかもしれません。
+Sway のインストール
+
+Arch Linux のインストール方法についてはこちらの動画（英語）や、Arch Wiki（日本語）、こちらのドキュメント（日本語）を参照して下さい。
+初心者の方はarchinstallというヘルパーライブラリを使うことをおすすめします。
+
+archinstall でインストールする場合
+archinstallを使うと、Arch Linux のインストールと、Sway を含むデスクトップ環境を簡単にインストールできます。その際、Desktop Environment の項目で「Sway」を選択してください。
+その他の項目のオススメの設定も一応載せておきます。
+
+Mirror: Japan
+Disk configuration → Partitioning
+
+Disk configuration type: Use a best-effort default partition layout
+File system: ext4
+Create a separate partition for /home: Yes
+
+
+Profile
+
+Type
+
+Type: Desktop
+Desktop environment: GNOME, Sway
+Seat access: polkit
+
+
+Greeter: GDM
+
+
+Audio: pipewire
+Kernel: linux &amp; linux-lts
+Network configuration: Use NetworkManager
+Time zone: Japan
+
+手動でインストールする場合
+sudo pacman -S sway swaybg swaylock swayidle
+
+waybar
+wofi
+mako
+brightnessctl
+wl-clipboard
+
+日本語入力とフォントの設定
+日本語ロケールの設定
+Sway 環境で日本語を使うためには、まずシステム全体で 日本語ロケール（ja_JP.UTF-8） を有効にする必要があります。
+ロケールが定義されているファイルは /etc/locale.gen です。このファイルを開いて、=ja_JP.UTF-8 UTF-8= の行の先頭にある # を取り除いて日本語ロケールを有効にします。
+次に、以下のコマンドを実行して /etc/locale.conf で有効になっているロケールをシステムに反映します。">
+<meta name="author" content="Yuichi Tsunoda">
+<link rel="canonical" href="http://localhost:1313/posts/blog2/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/blog2/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Arch Linux と Sway WM を使ったデスクトップ環境構築ガイド（書きかけ）
+    </h1>
+    <div class="post-meta"><span title='2025-12-29 00:00:00 +0900 JST'>December 29, 2025</span>&nbsp;·&nbsp;<span>Yuichi Tsunoda</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="はじめに">はじめに<a hidden class="anchor" aria-hidden="true" href="#はじめに">#</a></h2>
+<h3 id="sway-wm-について">Sway WM について<a hidden class="anchor" aria-hidden="true" href="#sway-wm-について">#</a></h3>
+<p><a href="https://ja.wikipedia.org/wiki/Sway_(%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3)">Swayウィンドウマネージャー</a>（以下、Sway）は、<a href="https://ja.wikipedia.org/wiki/Wayland">Wayland</a>で動作する<a href="https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%83%AB%E5%9E%8B%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3">タイル型ウィンドウマネージャー</a>です。
+僕が Linux を使うモチベーションの一つが「タイル型ウィンドウマネージャーが使えること」なのですが、Wayland 環境で使えるタイル型ウィンドウマネージャーは結構限られています（Sway 以外だと Hyprland くらい？）。
+僕はずーっと Sway を使っているのですが、Sway はかなり動作が安定しているし、ドキュメントも割と充実しているし、Arch Linux であれば日本語入力も問題なく使えるので、タイル型ウィンドウマネージャー初心者の方にも非常にオススメです。
+ここでは、Arch Linux 上での Sway を使ったデスクトップ環境の構築方法を紹介します。</p>
+<h4 id="僕のデスクトップ環境">僕のデスクトップ環境<a hidden class="anchor" aria-hidden="true" href="#僕のデスクトップ環境">#</a></h4>
+<p><img loading="lazy" src="/assets/img/sway-desktop.gif">
+見た目よりも視認性・操作性・メンテナンス性を重視して、シンプルなデザインにしています。ビジュアル重視の方は、<a href="https://hypr.land/">Hyprland</a>を試してみると良いかもしれません。</p>
+<h2 id="sway-のインストール">Sway のインストール<a hidden class="anchor" aria-hidden="true" href="#sway-のインストール">#</a></h2>
+<blockquote>
+<p>Arch Linux のインストール方法については<a href="https://www.youtube.com/watch?v=FxeriGuJKTM">こちらの動画（英語）</a>や、<a href="https://wiki.archlinux.jp/index.php/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%82%AC%E3%82%A4%E3%83%89">Arch Wiki（日本語）</a>、<a href="https://zenn.dev/ytjvdcm/articles/0efb9112468de3">こちらのドキュメント（日本語）</a>を参照して下さい。
+初心者の方は<a href="https://wiki.archlinux.jp/index.php/Archinstall">archinstall</a>というヘルパーライブラリを使うことをおすすめします。</p>
+</blockquote>
+<h3 id="archinstall-でインストールする場合">archinstall でインストールする場合<a hidden class="anchor" aria-hidden="true" href="#archinstall-でインストールする場合">#</a></h3>
+<p><a href="https://wiki.archlinux.org/title/Archinstall">archinstall</a>を使うと、Arch Linux のインストールと、Sway を含むデスクトップ環境を簡単にインストールできます。その際、Desktop Environment の項目で「Sway」を選択してください。
+その他の項目のオススメの設定も一応載せておきます。</p>
+<ul>
+<li>Mirror: Japan</li>
+<li>Disk configuration → Partitioning
+<ul>
+<li>Disk configuration type: Use a best-effort default partition layout</li>
+<li>File system: ext4</li>
+<li>Create a separate partition for /home: Yes</li>
+</ul>
+</li>
+<li>Profile
+<ul>
+<li>Type
+<ul>
+<li>Type: Desktop</li>
+<li>Desktop environment: GNOME, Sway</li>
+<li>Seat access: polkit</li>
+</ul>
+</li>
+<li>Greeter: GDM</li>
+</ul>
+</li>
+<li>Audio: pipewire</li>
+<li>Kernel: linux &amp; linux-lts</li>
+<li>Network configuration: Use NetworkManager</li>
+<li>Time zone: Japan</li>
+</ul>
+<h3 id="手動でインストールする場合">手動でインストールする場合<a hidden class="anchor" aria-hidden="true" href="#手動でインストールする場合">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S sway swaybg swaylock swayidle
+</span></span></code></pre></div><ul>
+<li>waybar</li>
+<li>wofi</li>
+<li>mako</li>
+<li>brightnessctl</li>
+<li>wl-clipboard</li>
+</ul>
+<h2 id="日本語入力とフォントの設定">日本語入力とフォントの設定<a hidden class="anchor" aria-hidden="true" href="#日本語入力とフォントの設定">#</a></h2>
+<h3 id="日本語ロケールの設定">日本語ロケールの設定<a hidden class="anchor" aria-hidden="true" href="#日本語ロケールの設定">#</a></h3>
+<p>Sway 環境で日本語を使うためには、まずシステム全体で <strong>日本語ロケール（ja_JP.UTF-8）</strong> を有効にする必要があります。
+ロケールが定義されているファイルは <code>/etc/locale.gen</code> です。このファイルを開いて、=ja_JP.UTF-8 UTF-8= の行の先頭にある <code>#</code> を取り除いて日本語ロケールを有効にします。
+次に、以下のコマンドを実行して <code>/etc/locale.conf</code> で有効になっているロケールをシステムに反映します。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo locale-gen
+</span></span></code></pre></div><h3 id="日本語の入力メソッドの設定">日本語の入力メソッドの設定<a hidden class="anchor" aria-hidden="true" href="#日本語の入力メソッドの設定">#</a></h3>
+<p>日本語入力には<a href="https://wiki.archlinux.jp/index.php/Fcitx5">fcitx5</a>という入力メソッドフレームワークを使います。以下のコマンドで必要なパッケージをインストールします。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S fcitx5-im fcitx5-configtool fcitx5-mozc
+</span></span></code></pre></div><p>次に、=/etc/environment=ファイルを編集して、fcitx5 を有効にします。以下の内容を追加してください。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>GTK_IM_MODULE<span style="color:#f92672">=</span>fcitx
+</span></span><span style="display:flex;"><span>QT_IM_MODULE<span style="color:#f92672">=</span>fcitx
+</span></span><span style="display:flex;"><span>XMODIFIERS<span style="color:#f92672">=</span>@im<span style="color:#f92672">=</span>fcitx
+</span></span></code></pre></div><p>そして、=fcitx5-configtool=を起動して、Available Input Method から Mozc を選択し、Current Input Method に追加されているのを確認し、Apply をクリックして下さい。
+最後に、ログアウトして再ログインすることで、fcitx5 が有効になります。</p>
+<h3 id="フォントの設定">フォントの設定<a hidden class="anchor" aria-hidden="true" href="#フォントの設定">#</a></h3>
+<p>フォントは<a href="https://fonts.google.com/noto/specimen/Noto+Sans+JP">Noto Sans CJK JP</a>を使うのがオススメです。以下のコマンドでインストールできます。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S noto noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
+</span></span></code></pre></div><h2 id="sway-の設定">Sway の設定<a hidden class="anchor" aria-hidden="true" href="#sway-の設定">#</a></h2>
+<p>Sway の設定ファイルは、=~/.config/sway/config= にあります。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
