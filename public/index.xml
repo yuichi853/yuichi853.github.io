@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>角田のブログ</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on 角田のブログ</description>
-    <generator>Hugo</generator>
+    <image>
+      <title>角田のブログ</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.153.4</generator>
     <language>en</language>
     <lastBuildDate>Sun, 11 Jan 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -13,63 +18,569 @@
       <link>http://localhost:1313/posts/travel/</link>
       <pubDate>Sun, 11 Jan 2026 00:00:00 +0900</pubDate>
       <guid>http://localhost:1313/posts/travel/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E7%A7%8B%E4%BF%9D%E6%B8%A9%E6%B3%89-%E3%81%82%E3%81%8D%E3%81%86%E3%81%8A%E3%82%93%E3%81%9B%E3%82%93-%E5%AE%AE%E5%9F%8E%E7%9C%8C%E4%BB%99%E5%8F%B0%E5%B8%82&#34;&gt;「秋保温泉（あきうおんせん）」宮城県仙台市&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E7%89%B9%E5%BE%B4&#34;&gt;特徴&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E6%B8%A9%E6%B3%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&#34;&gt;温泉について&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E3%81%A9%E3%82%93%E3%81%AA%E6%B8%A9%E6%B3%89&#34;&gt;どんな温泉？&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E5%8A%B9%E8%83%BD&#34;&gt;効能&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9&#34;&gt;アクセス&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E6%97%85%E8%A1%8C%E3%83%97%E3%83%A9%E3%83%B3-gemini-%E7%94%9F%E6%88%90&#34;&gt;旅行プラン（Gemini 生成）&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E5%8F%82%E8%80%83%E6%83%85%E5%A0%B1&#34;&gt;参考情報&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E5%B1%B1%E4%B8%AD%E6%B8%A9%E6%B3%89-%E3%82%84%E3%81%BE%E3%81%AA%E3%81%8B%E3%81%8A%E3%82%93%E3%81%9B%E3%82%93-%E7%9F%B3%E5%B7%9D%E7%9C%8C%E5%8A%A0%E8%B3%80%E5%B8%82&#34;&gt;「山中温泉（やまなかおんせん）」石川県加賀市&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E7%89%B9%E5%BE%B4&#34;&gt;特徴&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E6%B8%A9%E6%B3%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&#34;&gt;温泉について&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E3%81%A9%E3%82%93%E3%81%AA%E6%B8%A9%E6%B3%89&#34;&gt;どんな温泉？&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E5%8A%B9%E8%83%BD&#34;&gt;効能&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9&#34;&gt;アクセス&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E6%97%85%E8%A1%8C%E3%83%97%E3%83%A9%E3%83%B3-gemini-%E7%94%9F%E6%88%90&#34;&gt;旅行プラン（Gemini 生成）&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E5%8F%82%E8%80%83%E6%83%85%E5%A0%B1&#34;&gt;参考情報&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E7%90%B4%E5%B9%B3-%E3%81%93%E3%81%A8%E3%81%B2%E3%82%89-%E6%B8%A9%E6%B3%89-%E9%A6%99%E5%B7%9D%E7%9C%8C%E4%BB%B2%E5%A4%9A%E5%BA%A6%E9%83%A1%E7%90%B4%E5%B9%B3%E7%94%BA&#34;&gt;「琴平（ことひら）温泉」香川県仲多度郡琴平町&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E7%89%B9%E5%BE%B4&#34;&gt;特徴&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E6%B8%A9%E6%B3%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&#34;&gt;温泉について&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E7%90%B4%E5%B9%B3%E6%B8%A9%E6%B3%89%E3%81%AE%E6%AD%B4%E5%8F%B2&#34;&gt;琴平温泉の歴史&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E5%8A%B9%E8%83%BD&#34;&gt;効能&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9&#34;&gt;アクセス&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E6%97%85%E8%A1%8C%E3%83%97%E3%83%A9%E3%83%B3-gemini-%E7%94%9F%E6%88%90&#34;&gt;旅行プラン（Gemini 生成）&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E5%8F%82%E8%80%83%E6%83%85%E5%A0%B1&#34;&gt;参考情報&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E5%B1%8B%E4%B9%85%E5%B3%B6-%E3%82%84%E3%81%8F%E3%81%97%E3%81%BE-%E9%B9%BF%E5%85%90%E5%B3%B6%E7%9C%8C%E7%86%8A%E6%AF%9B%E9%83%A1%E5%B1%8B%E4%B9%85%E5%B3%B6%E7%94%BA&#34;&gt;「屋久島（やくしま）」鹿児島県熊毛郡屋久島町&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E7%89%B9%E5%BE%B4&#34;&gt;特徴&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E6%B8%A9%E6%B3%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&#34;&gt;温泉について&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E5%B1%8B%E4%B9%85%E5%B3%B6%E3%81%AE%E6%B8%A9%E6%B3%89%E3%81%AE%E6%AD%B4%E5%8F%B2&#34;&gt;屋久島の温泉の歴史&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E5%8A%B9%E8%83%BD&#34;&gt;効能&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9&#34;&gt;アクセス&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E6%97%85%E8%A1%8C%E3%83%97%E3%83%A9%E3%83%B3-gemini-%E7%94%9F%E6%88%90&#34;&gt;旅行プラン（Gemini 生成）&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E5%8F%82%E8%80%83%E6%83%85%E5%A0%B1&#34;&gt;参考情報&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E6%9D%BE%E5%B1%B1-%E9%81%93%E5%BE%8C%E6%B8%A9%E6%B3%89-%E6%84%9B%E5%AA%9B%E7%9C%8C%E6%9D%BE%E5%B1%B1%E5%B8%82&#34;&gt;「松山・道後温泉」愛媛県松山市&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E7%89%B9%E5%BE%B4&#34;&gt;特徴&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E6%B8%A9%E6%B3%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&#34;&gt;温泉について&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E9%81%93%E5%BE%8C%E6%B8%A9%E6%B3%89%E3%81%AE%E6%AD%B4%E5%8F%B2&#34;&gt;道後温泉の歴史&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E5%8A%B9%E8%83%BD&#34;&gt;効能&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9&#34;&gt;アクセス&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E6%97%85%E8%A1%8C%E3%83%97%E3%83%A9%E3%83%B3-gemini-%E7%94%9F%E6%88%90&#34;&gt;旅行プラン（Gemini 生成）&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E5%8F%82%E8%80%83%E6%83%85%E5%A0%B1&#34;&gt;参考情報&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;秋保温泉-あきうおんせん-宮城県仙台市&#34;&gt;「秋保温泉（あきうおんせん）」宮城県仙台市&lt;/h2&gt;&#xA;&lt;h3 id=&#34;特徴&#34;&gt;特徴&lt;/h3&gt;&#xA;&lt;p&gt;仙台の「奥座敷」と呼ばれる歴史ある温泉地。1500 年の歴史と言われていて、なんか天皇とか伊達政宗とかが愛したとか愛さなかったとか。&#xA;Gemini 曰く、2 月末はまだ雪が残る日が多く、渓谷の雪景色を楽しめるらしいが、仙台は東北の中でもダントツで雪が少ないらしくて、寒いけど雪は多くないっぽい。ワンチャン雪景色見れないかも。&#xA;温泉の近くには観光名所である「秋保大滝」と、「磊々峡&#xA;（らいらいきょう）」、あと「万華鏡美術館」があって、散策場所には困らないと思う。（いずれも電車で 30 分以内）&lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E7%A7%8B%E4%BF%9D%E6%B8%A9%E6%B3%89-%E3%81%82%E3%81%8D%E3%81%86%E3%81%8A%E3%82%93%E3%81%9B%E3%82%93-%E5%AE%AE%E5%9F%8E%E7%9C%8C%E4%BB%99%E5%8F%B0%E5%B8%82&#34;&gt;「秋保温泉（あきうおんせん）」宮城県仙台市&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E7%89%B9%E5%BE%B4&#34;&gt;特徴&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%B8%A9%E6%B3%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&#34;&gt;温泉について&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E3%81%A9%E3%82%93%E3%81%AA%E6%B8%A9%E6%B3%89&#34;&gt;どんな温泉？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%8A%B9%E8%83%BD&#34;&gt;効能&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9&#34;&gt;アクセス&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%97%85%E8%A1%8C%E3%83%97%E3%83%A9%E3%83%B3-gemini-%E7%94%9F%E6%88%90&#34;&gt;旅行プラン（Gemini 生成）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%8F%82%E8%80%83%E6%83%85%E5%A0%B1&#34;&gt;参考情報&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%B1%B1%E4%B8%AD%E6%B8%A9%E6%B3%89-%E3%82%84%E3%81%BE%E3%81%AA%E3%81%8B%E3%81%8A%E3%82%93%E3%81%9B%E3%82%93-%E7%9F%B3%E5%B7%9D%E7%9C%8C%E5%8A%A0%E8%B3%80%E5%B8%82&#34;&gt;「山中温泉（やまなかおんせん）」石川県加賀市&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E7%89%B9%E5%BE%B4&#34;&gt;特徴&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%B8%A9%E6%B3%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&#34;&gt;温泉について&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E3%81%A9%E3%82%93%E3%81%AA%E6%B8%A9%E6%B3%89&#34;&gt;どんな温泉？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%8A%B9%E8%83%BD&#34;&gt;効能&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9&#34;&gt;アクセス&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%97%85%E8%A1%8C%E3%83%97%E3%83%A9%E3%83%B3-gemini-%E7%94%9F%E6%88%90&#34;&gt;旅行プラン（Gemini 生成）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%8F%82%E8%80%83%E6%83%85%E5%A0%B1&#34;&gt;参考情報&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E7%90%B4%E5%B9%B3-%E3%81%93%E3%81%A8%E3%81%B2%E3%82%89-%E6%B8%A9%E6%B3%89-%E9%A6%99%E5%B7%9D%E7%9C%8C%E4%BB%B2%E5%A4%9A%E5%BA%A6%E9%83%A1%E7%90%B4%E5%B9%B3%E7%94%BA&#34;&gt;「琴平（ことひら）温泉」香川県仲多度郡琴平町&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E7%89%B9%E5%BE%B4&#34;&gt;特徴&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%B8%A9%E6%B3%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&#34;&gt;温泉について&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E7%90%B4%E5%B9%B3%E6%B8%A9%E6%B3%89%E3%81%AE%E6%AD%B4%E5%8F%B2&#34;&gt;琴平温泉の歴史&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%8A%B9%E8%83%BD&#34;&gt;効能&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9&#34;&gt;アクセス&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%97%85%E8%A1%8C%E3%83%97%E3%83%A9%E3%83%B3-gemini-%E7%94%9F%E6%88%90&#34;&gt;旅行プラン（Gemini 生成）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%8F%82%E8%80%83%E6%83%85%E5%A0%B1&#34;&gt;参考情報&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%B1%8B%E4%B9%85%E5%B3%B6-%E3%82%84%E3%81%8F%E3%81%97%E3%81%BE-%E9%B9%BF%E5%85%90%E5%B3%B6%E7%9C%8C%E7%86%8A%E6%AF%9B%E9%83%A1%E5%B1%8B%E4%B9%85%E5%B3%B6%E7%94%BA&#34;&gt;「屋久島（やくしま）」鹿児島県熊毛郡屋久島町&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E7%89%B9%E5%BE%B4&#34;&gt;特徴&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%B8%A9%E6%B3%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&#34;&gt;温泉について&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%B1%8B%E4%B9%85%E5%B3%B6%E3%81%AE%E6%B8%A9%E6%B3%89%E3%81%AE%E6%AD%B4%E5%8F%B2&#34;&gt;屋久島の温泉の歴史&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%8A%B9%E8%83%BD&#34;&gt;効能&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9&#34;&gt;アクセス&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%97%85%E8%A1%8C%E3%83%97%E3%83%A9%E3%83%B3-gemini-%E7%94%9F%E6%88%90&#34;&gt;旅行プラン（Gemini 生成）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%8F%82%E8%80%83%E6%83%85%E5%A0%B1&#34;&gt;参考情報&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%9D%BE%E5%B1%B1-%E9%81%93%E5%BE%8C%E6%B8%A9%E6%B3%89-%E6%84%9B%E5%AA%9B%E7%9C%8C%E6%9D%BE%E5%B1%B1%E5%B8%82&#34;&gt;「松山・道後温泉」愛媛県松山市&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E7%89%B9%E5%BE%B4&#34;&gt;特徴&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%B8%A9%E6%B3%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&#34;&gt;温泉について&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E9%81%93%E5%BE%8C%E6%B8%A9%E6%B3%89%E3%81%AE%E6%AD%B4%E5%8F%B2&#34;&gt;道後温泉の歴史&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%8A%B9%E8%83%BD&#34;&gt;効能&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9&#34;&gt;アクセス&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%97%85%E8%A1%8C%E3%83%97%E3%83%A9%E3%83%B3-gemini-%E7%94%9F%E6%88%90&#34;&gt;旅行プラン（Gemini 生成）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%8F%82%E8%80%83%E6%83%85%E5%A0%B1&#34;&gt;参考情報&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;秋保温泉-あきうおんせん-宮城県仙台市&#34;&gt;「秋保温泉（あきうおんせん）」宮城県仙台市&lt;/h2&gt;
+&lt;h3 id=&#34;特徴&#34;&gt;特徴&lt;/h3&gt;
+&lt;p&gt;仙台の「奥座敷」と呼ばれる歴史ある温泉地。1500 年の歴史と言われていて、なんか天皇とか伊達政宗とかが愛したとか愛さなかったとか。
+Gemini 曰く、2 月末はまだ雪が残る日が多く、渓谷の雪景色を楽しめるらしいが、仙台は東北の中でもダントツで雪が少ないらしくて、寒いけど雪は多くないっぽい。ワンチャン雪景色見れないかも。
+温泉の近くには観光名所である「秋保大滝」と、「磊々峡
+（らいらいきょう）」、あと「万華鏡美術館」があって、散策場所には困らないと思う。（いずれも電車で 30 分以内）&lt;/p&gt;</description>
     </item>
     <item>
       <title>2dgameengine</title>
       <link>http://localhost:1313/posts/blog3/</link>
       <pubDate>Mon, 29 Dec 2025 00:00:00 +0900</pubDate>
       <guid>http://localhost:1313/posts/blog3/</guid>
-      <description>&lt;h2 id=&#34;libraries-and-dependencies&#34;&gt;Libraries and Dependencies&lt;/h2&gt;&#xA;&lt;h3 id=&#34;compile-and-link&#34;&gt;Compile and Link&lt;/h3&gt;&#xA;&lt;p&gt;Compile and link are two different stages.&lt;/p&gt;&#xA;&lt;h4 id=&#34;compiler-stage&#34;&gt;Compiler stage&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;compile stage&lt;/li&gt;&#xA;&lt;li&gt;compiler reads your .cpp&lt;/li&gt;&#xA;&lt;li&gt;compiler reads header files (.h)&lt;/li&gt;&#xA;&lt;li&gt;compiler checks:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;“Does this function name exist?”&lt;/li&gt;&#xA;&lt;li&gt;“Are argument types correct?”&lt;/li&gt;&#xA;&lt;li&gt;“Is the structure defined?”&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;compiler generates .o (object files)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;link-stage&#34;&gt;Link stage&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;linker takes object files + binary libraries&lt;/li&gt;&#xA;&lt;li&gt;linker attaches real implementations from .so/.a&lt;/li&gt;&#xA;&lt;li&gt;produces the final executable&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;So:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Stage&lt;/th&gt;&#xA;          &lt;th&gt;Needs headers?&lt;/th&gt;&#xA;          &lt;th&gt;Needs binaries?&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Compile&lt;/td&gt;&#xA;          &lt;td&gt;Yes&lt;/td&gt;&#xA;          &lt;td&gt;No&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Link&lt;/td&gt;&#xA;          &lt;td&gt;No&lt;/td&gt;&#xA;          &lt;td&gt;Yes&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h4 id=&#34;q-and-a-from-cource&#34;&gt;Q&amp;amp;A from cource&lt;/h4&gt;&#xA;&lt;dl&gt;&#xA;&lt;dt&gt;Q&lt;/dt&gt;&#xA;&lt;dd&gt;You explain that we install the binaries for e.g. SDL. But why do we then include  &lt;strong&gt;.h files (e.g. SDL.h). Are header files not text files?&lt;/strong&gt;&lt;/dd&gt;&#xA;&lt;dt&gt;A&lt;/dt&gt;&#xA;&lt;dd&gt;&lt;strong&gt;So, even when we are using binaries (.libs), we still need to add a .h file to our project.&lt;/strong&gt;&#xA;Header files (.h) are indeed source-code/text files, but the main goal of a header file is to expose the API of those binaries that we are trying to use.&#xA;For example, when we include the binary of the SDL library, we need to also add the .h files for SDL. These .h files will tell the compiler important things, like what are the function names and the order of the parameters and also their type.&#xA;When we compile our project, the compiler only looks at the header files and does a quick check to see if the function names are correct and the parameters are the ones that the header file expects.&#xA;After the compiler says everything looks good and our calls match what the header file expects, the linker is the one responsible for bundling the implementation/binaries of those functions with our final executable.&#xA;So, that&amp;rsquo;s the reason why we still need .h files. These header files are source code files, but they only tell the compiler what we can call from those binaries. I always like to think that the header file tells the compiler what are the names of the functions we can call, their return type, and also the parameters with their types and the order we need to pass them to the function.&#xA;That&amp;rsquo;s the reason we downloaded both the Windows binaries (.lib) and the header files (.h) from the SDL official website.&lt;/dd&gt;&#xA;&lt;/dl&gt;&#xA;&lt;h3 id=&#34;static-vs-dynamic-libraries&#34;&gt;Static vs Dynamic Libraries&lt;/h3&gt;&#xA;&lt;h4 id=&#34;1-dot-static-libraries--dot-lib-dot-a&#34;&gt;1. Static Libraries (.lib / .a)&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Library code is copied into the final executable at link time.&lt;/li&gt;&#xA;&lt;li&gt;Each program gets its own private copy of the code.&lt;/li&gt;&#xA;&lt;li&gt;Results in a larger executable and higher overall memory usage.&lt;/li&gt;&#xA;&lt;li&gt;Cannot be shared between multiple running programs.&lt;/li&gt;&#xA;&lt;li&gt;Common file extensions:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Windows: .lib&lt;/li&gt;&#xA;&lt;li&gt;Linux/Unix: .a&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;2-dot-dynamic-libraries--dot-dll-dot-so&#34;&gt;2. Dynamic Libraries (.dll / .so)&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Library code stays outside the executable and is loaded at runtime.&lt;/li&gt;&#xA;&lt;li&gt;Multiple programs can share the same library in memory.&lt;/li&gt;&#xA;&lt;li&gt;Executable size is smaller and memory use is more efficient.&lt;/li&gt;&#xA;&lt;li&gt;Common file extensions:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Windows: .dll&lt;/li&gt;&#xA;&lt;li&gt;Linux/Unix: .so&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;comparison-table&#34;&gt;Comparison Table&lt;/h4&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Feature&lt;/th&gt;&#xA;          &lt;th&gt;Static (.lib/.a)&lt;/th&gt;&#xA;          &lt;th&gt;Dynamic (.dll/.so)&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Link time&lt;/td&gt;&#xA;          &lt;td&gt;Build time&lt;/td&gt;&#xA;          &lt;td&gt;Run time&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Executable size&lt;/td&gt;&#xA;          &lt;td&gt;Larger&lt;/td&gt;&#xA;          &lt;td&gt;Smaller&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Memory usage&lt;/td&gt;&#xA;          &lt;td&gt;Higher (duplicate copies)&lt;/td&gt;&#xA;          &lt;td&gt;Lower (shared)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Sharing allowed&lt;/td&gt;&#xA;          &lt;td&gt;No&lt;/td&gt;&#xA;          &lt;td&gt;Yes&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Code location&lt;/td&gt;&#xA;          &lt;td&gt;Inside the executable&lt;/td&gt;&#xA;          &lt;td&gt;External file loaded dynamically&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h4 id=&#34;key-idea-summary&#34;&gt;Key Idea Summary&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Static library: code is &lt;strong&gt;copied&lt;/strong&gt; into your program.&lt;/li&gt;&#xA;&lt;li&gt;Dynamic library: code is &lt;strong&gt;shared&lt;/strong&gt; at runtime among programs.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;displaying-the-game-window&#34;&gt;Displaying the Game Window&lt;/h2&gt;&#xA;&lt;h3 id=&#34;game-loop&#34;&gt;Game Loop&lt;/h3&gt;&#xA;&lt;h4 id=&#34;game-loop&#34;&gt;Game Loop&lt;/h4&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Process Input&lt;/li&gt;&#xA;&lt;li&gt;Update Game&lt;/li&gt;&#xA;&lt;li&gt;Render (display stuff)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;game&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;processInput&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;game&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;update&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;game&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;render&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;game-loop-on-game-engine&#34;&gt;Game loop on game engine&lt;/h4&gt;&#xA;&lt;p&gt;The game engine already provides the core game loop.&#xA;When we write scripts to control game objects, the game engine exposes several key functions for us to override.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;libraries-and-dependencies&#34;&gt;Libraries and Dependencies&lt;/h2&gt;
+&lt;h3 id=&#34;compile-and-link&#34;&gt;Compile and Link&lt;/h3&gt;
+&lt;p&gt;Compile and link are two different stages.&lt;/p&gt;
+&lt;h4 id=&#34;compiler-stage&#34;&gt;Compiler stage&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;compile stage&lt;/li&gt;
+&lt;li&gt;compiler reads your .cpp&lt;/li&gt;
+&lt;li&gt;compiler reads header files (.h)&lt;/li&gt;
+&lt;li&gt;compiler checks:
+&lt;ul&gt;
+&lt;li&gt;“Does this function name exist?”&lt;/li&gt;
+&lt;li&gt;“Are argument types correct?”&lt;/li&gt;
+&lt;li&gt;“Is the structure defined?”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;compiler generates .o (object files)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;link-stage&#34;&gt;Link stage&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;linker takes object files + binary libraries&lt;/li&gt;
+&lt;li&gt;linker attaches real implementations from .so/.a&lt;/li&gt;
+&lt;li&gt;produces the final executable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Stage&lt;/th&gt;
+          &lt;th&gt;Needs headers?&lt;/th&gt;
+          &lt;th&gt;Needs binaries?&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Compile&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Link&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;q-and-a-from-cource&#34;&gt;Q&amp;amp;A from cource&lt;/h4&gt;
+&lt;dl&gt;
+&lt;dt&gt;Q&lt;/dt&gt;
+&lt;dd&gt;You explain that we install the binaries for e.g. SDL. But why do we then include  &lt;strong&gt;.h files (e.g. SDL.h). Are header files not text files?&lt;/strong&gt;&lt;/dd&gt;
+&lt;dt&gt;A&lt;/dt&gt;
+&lt;dd&gt;&lt;strong&gt;So, even when we are using binaries (.libs), we still need to add a .h file to our project.&lt;/strong&gt;
+Header files (.h) are indeed source-code/text files, but the main goal of a header file is to expose the API of those binaries that we are trying to use.
+For example, when we include the binary of the SDL library, we need to also add the .h files for SDL. These .h files will tell the compiler important things, like what are the function names and the order of the parameters and also their type.
+When we compile our project, the compiler only looks at the header files and does a quick check to see if the function names are correct and the parameters are the ones that the header file expects.
+After the compiler says everything looks good and our calls match what the header file expects, the linker is the one responsible for bundling the implementation/binaries of those functions with our final executable.
+So, that&amp;rsquo;s the reason why we still need .h files. These header files are source code files, but they only tell the compiler what we can call from those binaries. I always like to think that the header file tells the compiler what are the names of the functions we can call, their return type, and also the parameters with their types and the order we need to pass them to the function.
+That&amp;rsquo;s the reason we downloaded both the Windows binaries (.lib) and the header files (.h) from the SDL official website.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;h3 id=&#34;static-vs-dynamic-libraries&#34;&gt;Static vs Dynamic Libraries&lt;/h3&gt;
+&lt;h4 id=&#34;1-dot-static-libraries--dot-lib-dot-a&#34;&gt;1. Static Libraries (.lib / .a)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Library code is copied into the final executable at link time.&lt;/li&gt;
+&lt;li&gt;Each program gets its own private copy of the code.&lt;/li&gt;
+&lt;li&gt;Results in a larger executable and higher overall memory usage.&lt;/li&gt;
+&lt;li&gt;Cannot be shared between multiple running programs.&lt;/li&gt;
+&lt;li&gt;Common file extensions:
+&lt;ul&gt;
+&lt;li&gt;Windows: .lib&lt;/li&gt;
+&lt;li&gt;Linux/Unix: .a&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-dot-dynamic-libraries--dot-dll-dot-so&#34;&gt;2. Dynamic Libraries (.dll / .so)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Library code stays outside the executable and is loaded at runtime.&lt;/li&gt;
+&lt;li&gt;Multiple programs can share the same library in memory.&lt;/li&gt;
+&lt;li&gt;Executable size is smaller and memory use is more efficient.&lt;/li&gt;
+&lt;li&gt;Common file extensions:
+&lt;ul&gt;
+&lt;li&gt;Windows: .dll&lt;/li&gt;
+&lt;li&gt;Linux/Unix: .so&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;comparison-table&#34;&gt;Comparison Table&lt;/h4&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Feature&lt;/th&gt;
+          &lt;th&gt;Static (.lib/.a)&lt;/th&gt;
+          &lt;th&gt;Dynamic (.dll/.so)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Link time&lt;/td&gt;
+          &lt;td&gt;Build time&lt;/td&gt;
+          &lt;td&gt;Run time&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Executable size&lt;/td&gt;
+          &lt;td&gt;Larger&lt;/td&gt;
+          &lt;td&gt;Smaller&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Memory usage&lt;/td&gt;
+          &lt;td&gt;Higher (duplicate copies)&lt;/td&gt;
+          &lt;td&gt;Lower (shared)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Sharing allowed&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Code location&lt;/td&gt;
+          &lt;td&gt;Inside the executable&lt;/td&gt;
+          &lt;td&gt;External file loaded dynamically&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;key-idea-summary&#34;&gt;Key Idea Summary&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Static library: code is &lt;strong&gt;copied&lt;/strong&gt; into your program.&lt;/li&gt;
+&lt;li&gt;Dynamic library: code is &lt;strong&gt;shared&lt;/strong&gt; at runtime among programs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;displaying-the-game-window&#34;&gt;Displaying the Game Window&lt;/h2&gt;
+&lt;h3 id=&#34;game-loop&#34;&gt;Game Loop&lt;/h3&gt;
+&lt;h4 id=&#34;game-loop&#34;&gt;Game Loop&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Process Input&lt;/li&gt;
+&lt;li&gt;Update Game&lt;/li&gt;
+&lt;li&gt;Render (display stuff)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;game&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;processInput&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;game&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;update&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;game&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;render&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;game-loop-on-game-engine&#34;&gt;Game loop on game engine&lt;/h4&gt;
+&lt;p&gt;The game engine already provides the core game loop.
+When we write scripts to control game objects, the game engine exposes several key functions for us to override.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Arch Linux と Sway WM を使ったデスクトップ環境構築ガイド（書きかけ）</title>
       <link>http://localhost:1313/posts/blog2/</link>
       <pubDate>Mon, 29 Dec 2025 00:00:00 +0900</pubDate>
       <guid>http://localhost:1313/posts/blog2/</guid>
-      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sway-wm-について&#34;&gt;Sway WM について&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/Sway_(%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3)&#34;&gt;Swayウィンドウマネージャー&lt;/a&gt;（以下、Sway）は、&lt;a href=&#34;https://ja.wikipedia.org/wiki/Wayland&#34;&gt;Wayland&lt;/a&gt;で動作する&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%83%AB%E5%9E%8B%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3&#34;&gt;タイル型ウィンドウマネージャー&lt;/a&gt;です。&#xA;僕が Linux を使うモチベーションの一つが「タイル型ウィンドウマネージャーが使えること」なのですが、Wayland 環境で使えるタイル型ウィンドウマネージャーは結構限られています（Sway 以外だと Hyprland くらい？）。&#xA;僕はずーっと Sway を使っているのですが、Sway はかなり動作が安定しているし、ドキュメントも割と充実しているし、Arch Linux であれば日本語入力も問題なく使えるので、タイル型ウィンドウマネージャー初心者の方にも非常にオススメです。&#xA;ここでは、Arch Linux 上での Sway を使ったデスクトップ環境の構築方法を紹介します。&lt;/p&gt;&#xA;&lt;h4 id=&#34;僕のデスクトップ環境&#34;&gt;僕のデスクトップ環境&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/img/sway-desktop.gif&#34; alt=&#34;&#34;&gt;&#xA;見た目よりも視認性・操作性・メンテナンス性を重視して、シンプルなデザインにしています。ビジュアル重視の方は、&lt;a href=&#34;https://hypr.land/&#34;&gt;Hyprland&lt;/a&gt;を試してみると良いかもしれません。&lt;/p&gt;&#xA;&lt;h2 id=&#34;sway-のインストール&#34;&gt;Sway のインストール&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Arch Linux のインストール方法については&lt;a href=&#34;https://www.youtube.com/watch?v=FxeriGuJKTM&#34;&gt;こちらの動画（英語）&lt;/a&gt;や、&lt;a href=&#34;https://wiki.archlinux.jp/index.php/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%82%AC%E3%82%A4%E3%83%89&#34;&gt;Arch Wiki（日本語）&lt;/a&gt;、&lt;a href=&#34;https://zenn.dev/ytjvdcm/articles/0efb9112468de3&#34;&gt;こちらのドキュメント（日本語）&lt;/a&gt;を参照して下さい。&#xA;初心者の方は&lt;a href=&#34;https://wiki.archlinux.jp/index.php/Archinstall&#34;&gt;archinstall&lt;/a&gt;というヘルパーライブラリを使うことをおすすめします。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;archinstall-でインストールする場合&#34;&gt;archinstall でインストールする場合&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/title/Archinstall&#34;&gt;archinstall&lt;/a&gt;を使うと、Arch Linux のインストールと、Sway を含むデスクトップ環境を簡単にインストールできます。その際、Desktop Environment の項目で「Sway」を選択してください。&#xA;その他の項目のオススメの設定も一応載せておきます。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mirror: Japan&lt;/li&gt;&#xA;&lt;li&gt;Disk configuration → Partitioning&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Disk configuration type: Use a best-effort default partition layout&lt;/li&gt;&#xA;&lt;li&gt;File system: ext4&lt;/li&gt;&#xA;&lt;li&gt;Create a separate partition for /home: Yes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Profile&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Type&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Type: Desktop&lt;/li&gt;&#xA;&lt;li&gt;Desktop environment: GNOME, Sway&lt;/li&gt;&#xA;&lt;li&gt;Seat access: polkit&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Greeter: GDM&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Audio: pipewire&lt;/li&gt;&#xA;&lt;li&gt;Kernel: linux &amp;amp; linux-lts&lt;/li&gt;&#xA;&lt;li&gt;Network configuration: Use NetworkManager&lt;/li&gt;&#xA;&lt;li&gt;Time zone: Japan&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;手動でインストールする場合&#34;&gt;手動でインストールする場合&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S sway swaybg swaylock swayidle&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;waybar&lt;/li&gt;&#xA;&lt;li&gt;wofi&lt;/li&gt;&#xA;&lt;li&gt;mako&lt;/li&gt;&#xA;&lt;li&gt;brightnessctl&lt;/li&gt;&#xA;&lt;li&gt;wl-clipboard&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;日本語入力とフォントの設定&#34;&gt;日本語入力とフォントの設定&lt;/h2&gt;&#xA;&lt;h3 id=&#34;日本語ロケールの設定&#34;&gt;日本語ロケールの設定&lt;/h3&gt;&#xA;&lt;p&gt;Sway 環境で日本語を使うためには、まずシステム全体で &lt;strong&gt;日本語ロケール（ja_JP.UTF-8）&lt;/strong&gt; を有効にする必要があります。&#xA;ロケールが定義されているファイルは &lt;code&gt;/etc/locale.gen&lt;/code&gt; です。このファイルを開いて、=ja_JP.UTF-8 UTF-8= の行の先頭にある &lt;code&gt;#&lt;/code&gt; を取り除いて日本語ロケールを有効にします。&#xA;次に、以下のコマンドを実行して &lt;code&gt;/etc/locale.conf&lt;/code&gt; で有効になっているロケールをシステムに反映します。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;h3 id=&#34;sway-wm-について&#34;&gt;Sway WM について&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/Sway_(%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3)&#34;&gt;Swayウィンドウマネージャー&lt;/a&gt;（以下、Sway）は、&lt;a href=&#34;https://ja.wikipedia.org/wiki/Wayland&#34;&gt;Wayland&lt;/a&gt;で動作する&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%83%AB%E5%9E%8B%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3&#34;&gt;タイル型ウィンドウマネージャー&lt;/a&gt;です。
+僕が Linux を使うモチベーションの一つが「タイル型ウィンドウマネージャーが使えること」なのですが、Wayland 環境で使えるタイル型ウィンドウマネージャーは結構限られています（Sway 以外だと Hyprland くらい？）。
+僕はずーっと Sway を使っているのですが、Sway はかなり動作が安定しているし、ドキュメントも割と充実しているし、Arch Linux であれば日本語入力も問題なく使えるので、タイル型ウィンドウマネージャー初心者の方にも非常にオススメです。
+ここでは、Arch Linux 上での Sway を使ったデスクトップ環境の構築方法を紹介します。&lt;/p&gt;
+&lt;h4 id=&#34;僕のデスクトップ環境&#34;&gt;僕のデスクトップ環境&lt;/h4&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/assets/img/sway-desktop.gif&#34;&gt;
+見た目よりも視認性・操作性・メンテナンス性を重視して、シンプルなデザインにしています。ビジュアル重視の方は、&lt;a href=&#34;https://hypr.land/&#34;&gt;Hyprland&lt;/a&gt;を試してみると良いかもしれません。&lt;/p&gt;
+&lt;h2 id=&#34;sway-のインストール&#34;&gt;Sway のインストール&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Arch Linux のインストール方法については&lt;a href=&#34;https://www.youtube.com/watch?v=FxeriGuJKTM&#34;&gt;こちらの動画（英語）&lt;/a&gt;や、&lt;a href=&#34;https://wiki.archlinux.jp/index.php/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%82%AC%E3%82%A4%E3%83%89&#34;&gt;Arch Wiki（日本語）&lt;/a&gt;、&lt;a href=&#34;https://zenn.dev/ytjvdcm/articles/0efb9112468de3&#34;&gt;こちらのドキュメント（日本語）&lt;/a&gt;を参照して下さい。
+初心者の方は&lt;a href=&#34;https://wiki.archlinux.jp/index.php/Archinstall&#34;&gt;archinstall&lt;/a&gt;というヘルパーライブラリを使うことをおすすめします。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;archinstall-でインストールする場合&#34;&gt;archinstall でインストールする場合&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/title/Archinstall&#34;&gt;archinstall&lt;/a&gt;を使うと、Arch Linux のインストールと、Sway を含むデスクトップ環境を簡単にインストールできます。その際、Desktop Environment の項目で「Sway」を選択してください。
+その他の項目のオススメの設定も一応載せておきます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mirror: Japan&lt;/li&gt;
+&lt;li&gt;Disk configuration → Partitioning
+&lt;ul&gt;
+&lt;li&gt;Disk configuration type: Use a best-effort default partition layout&lt;/li&gt;
+&lt;li&gt;File system: ext4&lt;/li&gt;
+&lt;li&gt;Create a separate partition for /home: Yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Profile
+&lt;ul&gt;
+&lt;li&gt;Type
+&lt;ul&gt;
+&lt;li&gt;Type: Desktop&lt;/li&gt;
+&lt;li&gt;Desktop environment: GNOME, Sway&lt;/li&gt;
+&lt;li&gt;Seat access: polkit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Greeter: GDM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Audio: pipewire&lt;/li&gt;
+&lt;li&gt;Kernel: linux &amp;amp; linux-lts&lt;/li&gt;
+&lt;li&gt;Network configuration: Use NetworkManager&lt;/li&gt;
+&lt;li&gt;Time zone: Japan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;手動でインストールする場合&#34;&gt;手動でインストールする場合&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S sway swaybg swaylock swayidle
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;waybar&lt;/li&gt;
+&lt;li&gt;wofi&lt;/li&gt;
+&lt;li&gt;mako&lt;/li&gt;
+&lt;li&gt;brightnessctl&lt;/li&gt;
+&lt;li&gt;wl-clipboard&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;日本語入力とフォントの設定&#34;&gt;日本語入力とフォントの設定&lt;/h2&gt;
+&lt;h3 id=&#34;日本語ロケールの設定&#34;&gt;日本語ロケールの設定&lt;/h3&gt;
+&lt;p&gt;Sway 環境で日本語を使うためには、まずシステム全体で &lt;strong&gt;日本語ロケール（ja_JP.UTF-8）&lt;/strong&gt; を有効にする必要があります。
+ロケールが定義されているファイルは &lt;code&gt;/etc/locale.gen&lt;/code&gt; です。このファイルを開いて、=ja_JP.UTF-8 UTF-8= の行の先頭にある &lt;code&gt;#&lt;/code&gt; を取り除いて日本語ロケールを有効にします。
+次に、以下のコマンドを実行して &lt;code&gt;/etc/locale.conf&lt;/code&gt; で有効になっているロケールをシステムに反映します。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ダミー記事：文章のみのサンプル</title>
       <link>http://localhost:1313/posts/blog4.1/</link>
       <pubDate>Mon, 29 Dec 2025 00:00:00 +0900</pubDate>
       <guid>http://localhost:1313/posts/blog4.1/</guid>
-      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;&#xA;&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;&#xA;&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;&#xA;&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;&#xA;&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;&#xA;&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;&#xA;&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;&#xA;&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;&#xA;&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;&#xA;&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;&#xA;&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;&#xA;&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;&#xA;&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;&#xA;&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;&#xA;&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;&#xA;&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;&#xA;&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;&#xA;&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;&#xA;&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;&#xA;&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;&#xA;&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;&#xA;&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;&#xA;&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;&#xA;&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;&#xA;&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;&#xA;&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;&#xA;&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;&#xA;&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;
+&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;
+&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;
+&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;
+&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;
+&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;
+&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;
+&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;
+&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;
+&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;
+&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;
+&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;
+&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;
+&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;
+&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;
+&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;
+&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;
+&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;
+&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;
+&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;
+&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;
+&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;
+&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;
+&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;
+&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;
+&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;
+&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;
+&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;
+&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;
+&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;
+&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;
+&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;
+&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ダミー記事：文章のみのサンプル</title>
       <link>http://localhost:1313/posts/blog4.2/</link>
       <pubDate>Mon, 29 Dec 2025 00:00:00 +0900</pubDate>
       <guid>http://localhost:1313/posts/blog4.2/</guid>
-      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;&#xA;&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;&#xA;&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;&#xA;&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;&#xA;&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;&#xA;&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;&#xA;&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;&#xA;&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;&#xA;&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;&#xA;&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;&#xA;&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;&#xA;&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;&#xA;&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;&#xA;&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;&#xA;&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;&#xA;&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;&#xA;&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;&#xA;&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;&#xA;&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;&#xA;&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;&#xA;&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;&#xA;&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;&#xA;&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;&#xA;&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;&#xA;&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;&#xA;&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;&#xA;&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;&#xA;&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;
+&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;
+&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;
+&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;
+&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;
+&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;
+&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;
+&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;
+&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;
+&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;
+&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;
+&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;
+&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;
+&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;
+&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;
+&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;
+&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;
+&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;
+&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;
+&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;
+&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;
+&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;
+&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;
+&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;
+&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;
+&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;
+&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;
+&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;
+&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;
+&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;
+&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;
+&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;
+&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ダミー記事：文章のみのサンプル</title>
       <link>http://localhost:1313/posts/blog4.3/</link>
       <pubDate>Mon, 29 Dec 2025 00:00:00 +0900</pubDate>
       <guid>http://localhost:1313/posts/blog4.3/</guid>
-      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;&#xA;&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;&#xA;&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;&#xA;&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;&#xA;&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;&#xA;&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;&#xA;&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;&#xA;&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;&#xA;&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;&#xA;&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;&#xA;&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;&#xA;&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;&#xA;&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;&#xA;&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;&#xA;&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;&#xA;&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;&#xA;&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;&#xA;&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;&#xA;&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;&#xA;&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;&#xA;&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;&#xA;&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;&#xA;&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;&#xA;&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;&#xA;&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;&#xA;&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;&#xA;&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;&#xA;&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;
+&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;
+&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;
+&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;
+&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;
+&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;
+&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;
+&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;
+&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;
+&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;
+&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;
+&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;
+&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;
+&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;
+&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;
+&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;
+&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;
+&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;
+&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;
+&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;
+&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;
+&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;
+&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;
+&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;
+&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;
+&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;
+&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;
+&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;
+&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;
+&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;
+&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;
+&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;
+&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ダミー記事：文章のみのサンプル</title>
       <link>http://localhost:1313/posts/blog4.4/</link>
       <pubDate>Mon, 29 Dec 2025 00:00:00 +0900</pubDate>
       <guid>http://localhost:1313/posts/blog4.4/</guid>
-      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;&#xA;&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;&#xA;&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;&#xA;&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;&#xA;&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;&#xA;&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;&#xA;&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;&#xA;&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;&#xA;&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;&#xA;&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;&#xA;&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;&#xA;&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;&#xA;&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;&#xA;&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;&#xA;&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;&#xA;&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;&#xA;&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;&#xA;&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;&#xA;&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;&#xA;&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;&#xA;&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;&#xA;&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;&#xA;&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;&#xA;&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;&#xA;&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;&#xA;&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;&#xA;&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;&#xA;&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;
+&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;
+&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;
+&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;
+&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;
+&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;
+&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;
+&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;
+&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;
+&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;
+&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;
+&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;
+&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;
+&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;
+&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;
+&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;
+&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;
+&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;
+&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;
+&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;
+&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;
+&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;
+&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;
+&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;
+&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;
+&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;
+&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;
+&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;
+&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;
+&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;
+&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;
+&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;
+&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ダミー記事：文章のみのサンプル</title>
       <link>http://localhost:1313/posts/blog4/</link>
       <pubDate>Mon, 29 Dec 2025 00:00:00 +0900</pubDate>
       <guid>http://localhost:1313/posts/blog4/</guid>
-      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;&#xA;&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;&#xA;&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;&#xA;&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;&#xA;&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;&#xA;&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;&#xA;&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;&#xA;&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;&#xA;&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;&#xA;&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;&#xA;&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;&#xA;&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;&#xA;&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;&#xA;&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;&#xA;&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;&#xA;&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;&#xA;&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;&#xA;&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;&#xA;&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;&#xA;&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;&#xA;&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;&#xA;&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;&#xA;&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;&#xA;&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;&#xA;&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;&#xA;&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;&#xA;&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;&#xA;&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;&#xA;&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;
+&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;
+&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;
+&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;
+&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;
+&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;
+&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;
+&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;
+&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;
+&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;
+&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;
+&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;
+&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;
+&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;
+&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;
+&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;
+&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;
+&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;
+&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;
+&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;
+&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;
+&lt;h2 id=&#34;dummy-text-article&#34;&gt;ダミー記事：文章のみのサンプル&lt;/h2&gt;
+&lt;p&gt;これはレイアウト確認用のダミー記事です。文章だけで構成し、見出しと段落の見た目、行間、余白、強調の表示を確認します。内容は意味のある技術記事ではありません。&lt;/p&gt;
+&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;
+&lt;p&gt;Hugo のテーマ調整では、実際の文章量に近い記事を用意しておくと、フォントサイズ、字間、行間、見出しの強さ、段落間の余白などを客観的に判断できます。短い文だけでは違和感に気づきにくいため、一定の分量を持つ記事があると便利です。&lt;/p&gt;
+&lt;h3 id=&#34;本文のサンプル&#34;&gt;本文のサンプル&lt;/h3&gt;
+&lt;p&gt;文章は、画面幅やフォントによって読みやすさが大きく変わります。たとえば行の長さが長すぎると視線移動が増え、読むテンポが落ちます。逆に短すぎると改行が増え、文章が細切れに感じられます。実際の閲覧環境では、PC とスマートフォンで体験が変わるため、両方で確認するのが重要です。&lt;/p&gt;
+&lt;p&gt;また、見出しの太さやサイズは、情報の階層を伝える役割があります。見出しが強すぎると本文より目立ちすぎて読書の流れが途切れやすくなり、弱すぎるとどこから話が切り替わったのか分かりにくくなります。適度な差を作りつつ、視線の移動が自然になるように調整します。&lt;/p&gt;
+&lt;h3 id=&#34;段落と改行&#34;&gt;段落と改行&lt;/h3&gt;
+&lt;p&gt;段落の区切りは読みやすさに直結します。段落が長く続くと、内容のまとまりが把握しにくくなります。一方で、短すぎる段落が多いと、文章が箇条書きのように見えてしまいます。読み手が「一息つける」程度の間隔を意識して、段落を作ります。&lt;/p&gt;
+&lt;p&gt;改行についても同様で、視覚的な情報量が多いページでは、余白があるだけで読みやすさが改善します。テーマの余白や行間を調整する際は、段落間の余白が「狭すぎる」「広すぎる」のどちらに寄っているかを確認します。&lt;/p&gt;
+&lt;h3 id=&#34;強調表現のサンプル&#34;&gt;強調表現のサンプル&lt;/h3&gt;
+&lt;p&gt;この段落では、=等幅= と &lt;strong&gt;太字&lt;/strong&gt; と &lt;em&gt;斜体&lt;/em&gt; の表示を確認します。等幅は短い用語やコマンド名の表現に使い、太字は見出しほど強くない注目点に使います。斜体は英語の用語やニュアンスの強調に使うことがあります。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;このダミー記事は、見出し、段落、強調の見え方を確認するための素材です。フォントサイズ、見出しのウェイト、本文の横幅、余白などを調整したら、PC とスマートフォンの両方で確認し、読みやすさの変化を見比べます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Blog</title>
       <link>http://localhost:1313/posts/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/blog/</guid>
-      <description>&lt;h2 id=&#34;setup-ox-hugo&#34;&gt;Hugo + ox-hugo の導入メモ&lt;/h2&gt;&#xA;&lt;p&gt;この記事は、=ox-hugo= を使って Org から Hugo の記事を生成する手順のメモです。&lt;/p&gt;&#xA;&lt;h3 id=&#34;目的&#34;&gt;目的&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Org で原稿を書く&lt;/li&gt;&#xA;&lt;li&gt;1 見出し = 1 記事として Markdown を生成する&lt;/li&gt;&#xA;&lt;li&gt;Hugo の &lt;code&gt;content/posts/&lt;/code&gt; に自動出力する&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;構成-推奨&#34;&gt;構成（推奨）&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;~/sites/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── blog-org/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── blog.org&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└── username.github.io/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ├── content/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ├── static/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ├── themes/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    └── hugo.toml&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;エクスポート&#34;&gt;エクスポート&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ファイル全体: &lt;code&gt;C-c C-e H H&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;見出し単位: &lt;code&gt;C-c C-e H h&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;コード例&#34;&gt;コード例&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~/sites/username.github.io&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server -D&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;画像&#34;&gt;画像&lt;/h3&gt;&#xA;&lt;p&gt;画像は &lt;code&gt;static/images/&lt;/code&gt; に置くと管理が簡単です。&lt;/p&gt;&#xA;&lt;p&gt;例：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;画像ファイル: &lt;code&gt;static/images/sample.png&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Org 本文: &lt;code&gt;[[/images/sample.png]]&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;writing-style&#34;&gt;サンプル記事：技術メモの書き方&lt;/h2&gt;&#xA;&lt;p&gt;これは下書き（draft）です。=hugo server -D= で表示されます。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;setup-ox-hugo&#34;&gt;Hugo + ox-hugo の導入メモ&lt;/h2&gt;
+&lt;p&gt;この記事は、=ox-hugo= を使って Org から Hugo の記事を生成する手順のメモです。&lt;/p&gt;
+&lt;h3 id=&#34;目的&#34;&gt;目的&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Org で原稿を書く&lt;/li&gt;
+&lt;li&gt;1 見出し = 1 記事として Markdown を生成する&lt;/li&gt;
+&lt;li&gt;Hugo の &lt;code&gt;content/posts/&lt;/code&gt; に自動出力する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;構成-推奨&#34;&gt;構成（推奨）&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;~/sites/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── blog-org/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── blog.org
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└── username.github.io/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ├── content/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ├── static/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ├── themes/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    └── hugo.toml
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;エクスポート&#34;&gt;エクスポート&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ファイル全体: &lt;code&gt;C-c C-e H H&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;見出し単位: &lt;code&gt;C-c C-e H h&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;コード例&#34;&gt;コード例&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~/sites/username.github.io
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;画像&#34;&gt;画像&lt;/h3&gt;
+&lt;p&gt;画像は &lt;code&gt;static/images/&lt;/code&gt; に置くと管理が簡単です。&lt;/p&gt;
+&lt;p&gt;例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;画像ファイル: &lt;code&gt;static/images/sample.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Org 本文: &lt;code&gt;[[/images/sample.png]]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;writing-style&#34;&gt;サンプル記事：技術メモの書き方&lt;/h2&gt;
+&lt;p&gt;これは下書き（draft）です。=hugo server -D= で表示されます。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
