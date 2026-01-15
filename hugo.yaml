@@ -59,7 +59,7 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: ExampleSite
+    title: 雄一のサイト
     subtitle: "This is subtitle"
     imageUrl: "/avatar.jpg"
     imageWidth: 120
