@@ -69,3 +69,34 @@ draft = false
 ### 3/3 チェックアウト &amp; 電車でフィレンツェに移動 {#3-3-チェックアウト-and-電車でフィレンツェに移動}
 
 ローマ・テルミニ駅から、フィレンツェ・サンタ・マリア・ノヴェッラ駅(S.M.N)までフレッチャロッサ(FR)やイタロ(ITA)で約1時間30分。
+`FRかITAか、手荷物制限もあるため、要確認`
+イタロの方が新しく、セキュリティ的にも良いらしいが、最安プランは荷物の大きさ制限がある。
+
+フィレンツェは以下の場所に行きたい
+
+-   [ウッフィツィ美術館](https://note.com/nice_deer931/n/nb920cad378fb)
+-   [サン・マルコ美術館](https://note.com/layusee/n/ndca0563e7ca4)
+
+
+### 3/4 [アカデミア美術館](https://note.com/cojitrip/n/nb58d38e32c2a) {#3-4-アカデミア美術館}
+
+`絶対に予約する`
+
+
+### 3/5 [ウッフィツィ美術館](https://note.com/nice_deer931/n/nb920cad378fb) {#3-5-ウッフィツィ美術館}
+
+`絶対に予約する`
+
+
+### 3/6 [メディチ家礼拝堂](https://dreams-nirai.com/blog/2025-06-08.html) ・ ボーボリ庭園 ・ [ミケランジェロ広場](https://www.google.com/search?client=firefox-b-d&hs=nfCp&sca_esv=d8206f3c45377ff0&sxsrf=ANbL-n6-xb8OSD3mowfp6HZznyuHVsTrTg:1768972063148&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3m3YPDt_NFnmjs_fvB4vA8Wd5Qpy_Cn2UicshPbhmvjmErSHgCP-zPXD0ijIo31Qa-qjkPxwf2KKU4b2p1O7QwruikKo5-UsrxrEb9jwfyK8FarHjNbLiZPLfTe-q1bOwPW0A3QFrYwZQdqUS7TN5tBpRF_EeQ59aVLdDf6rqaA2TYv2fA&q=%E3%83%9F%E3%82%B1%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%A7%E3%83%AD%E5%BA%83%E5%A0%B4&sa=X&ved=2ahUKEwi768O77puSAxVhmVYBHeLuAHwQtKgLegQIDRAB&biw=1241&bih=938&dpr=2&aic=0) {#3-6-メディチ家礼拝堂-ボーボリ庭園-ミケランジェロ広場}
+
+`絶対に予約する`
+メディチ家礼拝堂を観光後、バスでミケランジェロ広場へ
+時間があったら、ボーボリ庭園（世界遺産）も回ってみてもいい。
+一応、これらは全てバスで30分の移動範囲内にある。
+
+
+### 3/7 ヴェネツィアへ {#3-7-ヴェネツィアへ}
+
+
+### 3/8 {#3-8}
