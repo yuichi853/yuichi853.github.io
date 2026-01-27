@@ -80,10 +80,7 @@ draft = false
 `FRかITAか、手荷物制限もあるため、要確認`
 イタロの方が新しく、セキュリティ的にも良いらしいが、最安プランは荷物の大きさ制限がある。
 
-フィレンツェは以下の場所に行きたい
-
--   [ウッフィツィ美術館](https://note.com/nice_deer931/n/nb920cad378fb)
--   [サン・マルコ美術館](https://note.com/layusee/n/ndca0563e7ca4)
+[サン・マルコ美術館](https://note.com/layusee/n/ndca0563e7ca4)にもできれば行きたい...
 
 
 ### 3/4 [アカデミア美術館](https://note.com/cojitrip/n/nb58d38e32c2a) {#3-4-アカデミア美術館}
